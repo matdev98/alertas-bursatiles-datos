@@ -191,7 +191,15 @@
       "public_verified": true
     },
     "repository": {
-      "status": "PENDING"
+      "status": "OK",
+      "owner": "matdev98",
+      "repository": "alertas-bursatiles-datos",
+      "html_url": "https://github.com/matdev98/alertas-bursatiles-datos",
+      "json_url": "https://raw.githubusercontent.com/matdev98/alertas-bursatiles-datos/main/alertas_latest.json",
+      "markdown_url": "https://raw.githubusercontent.com/matdev98/alertas-bursatiles-datos/main/alertas_latest.md",
+      "json_web_url": "https://github.com/matdev98/alertas-bursatiles-datos/blob/main/alertas_latest.json",
+      "markdown_web_url": "https://github.com/matdev98/alertas-bursatiles-datos/blob/main/alertas_latest.md",
+      "public_verified": true
     }
   }
 }
