@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "engine_version": "3.0.0",
-  "execution_utc": "2026-10-27T16:04:58Z",
+  "execution_utc": "2026-10-27T16:06:36Z",
   "reference_session_date": "2026-10-27",
   "provider": "Yahoo Finance via yfinance",
   "timezone": "America/New_York",
@@ -12,7 +12,7 @@
     {
       "schema_version": "1.0",
       "engine_version": "3.0.0",
-      "execution_utc": "2026-10-27T16:04:58Z",
+      "execution_utc": "2026-10-27T16:06:36Z",
       "symbol": "MSFT",
       "asset_type": "equity",
       "reference_session_date": "2026-10-27",
@@ -34,7 +34,7 @@
           "source": "Yahoo Finance via yfinance",
           "ticker": "MSFT",
           "interval": "1d",
-          "retrieved_at_utc": "2026-10-27T16:05:00.019368+00:00",
+          "retrieved_at_utc": "2026-10-27T16:06:38.766137+00:00",
           "requested_start": null,
           "requested_end": null,
           "source_url": "https://finance.yahoo.com/quote/MSFT",
@@ -45,7 +45,7 @@
           "source": "Yahoo Finance via yfinance",
           "ticker": "MSFT",
           "interval": "metadata",
-          "retrieved_at_utc": "2026-10-27T16:05:01.042157+00:00",
+          "retrieved_at_utc": "2026-10-27T16:06:39.773812+00:00",
           "requested_start": null,
           "requested_end": null,
           "source_url": "https://finance.yahoo.com/quote/MSFT",
@@ -172,7 +172,7 @@
           "source": "Yahoo Finance via yfinance",
           "ticker": "MSFT",
           "interval": "earnings",
-          "retrieved_at_utc": "2026-10-27T16:05:05.147570+00:00",
+          "retrieved_at_utc": "2026-10-27T16:06:44.053160+00:00",
           "requested_start": null,
           "requested_end": null,
           "source_url": "https://finance.yahoo.com/quote/MSFT",
@@ -189,7 +189,7 @@
           "source": "Yahoo Finance via yfinance",
           "ticker": "MSFT",
           "interval": "financials",
-          "retrieved_at_utc": "2026-10-27T16:05:07.563591+00:00",
+          "retrieved_at_utc": "2026-10-27T16:06:46.092203+00:00",
           "requested_start": null,
           "requested_end": null,
           "source_url": "https://finance.yahoo.com/quote/MSFT",
@@ -217,22 +217,11 @@
   ],
   "publication": {
     "gist": {
-      "status": "OK",
-      "owner": "matdev98",
-      "gist_id": "32e489a9f846751ab511ed408a640ab3",
-      "stable_json_url": "https://gist.githubusercontent.com/matdev98/32e489a9f846751ab511ed408a640ab3/raw/alertas_latest.json",
-      "public_verified": true
+      "status": "ERROR",
+      "error": "GitHub API rechazó la solicitud (HTTP 403)"
     },
     "repository": {
-      "status": "OK",
-      "owner": "matdev98",
-      "repository": "alertas-bursatiles-datos",
-      "html_url": "https://github.com/matdev98/alertas-bursatiles-datos",
-      "json_url": "https://raw.githubusercontent.com/matdev98/alertas-bursatiles-datos/main/alertas_latest.json",
-      "markdown_url": "https://raw.githubusercontent.com/matdev98/alertas-bursatiles-datos/main/alertas_latest.md",
-      "json_web_url": "https://github.com/matdev98/alertas-bursatiles-datos/blob/main/alertas_latest.json",
-      "markdown_web_url": "https://github.com/matdev98/alertas-bursatiles-datos/blob/main/alertas_latest.md",
-      "public_verified": true
+      "status": "PENDING"
     }
   }
 }
