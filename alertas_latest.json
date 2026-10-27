@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "engine_version": "3.0.0",
-  "execution_utc": "2026-10-27T15:32:38Z",
+  "execution_utc": "2026-10-27T15:56:26Z",
   "reference_session_date": "2026-10-27",
   "provider": "Yahoo Finance via yfinance",
   "timezone": "America/New_York",
@@ -12,7 +12,7 @@
     {
       "schema_version": "1.0",
       "engine_version": "3.0.0",
-      "execution_utc": "2026-10-27T15:32:38Z",
+      "execution_utc": "2026-10-27T15:56:26Z",
       "symbol": "MSFT",
       "asset_type": "equity",
       "reference_session_date": "2026-10-27",
@@ -34,7 +34,7 @@
           "source": "Yahoo Finance via yfinance",
           "ticker": "MSFT",
           "interval": "1d",
-          "retrieved_at_utc": "2026-10-27T15:32:40.447791+00:00",
+          "retrieved_at_utc": "2026-10-27T15:56:27.894569+00:00",
           "requested_start": null,
           "requested_end": null,
           "source_url": "https://finance.yahoo.com/quote/MSFT",
@@ -45,7 +45,7 @@
           "source": "Yahoo Finance via yfinance",
           "ticker": "MSFT",
           "interval": "metadata",
-          "retrieved_at_utc": "2026-10-27T15:32:41.344518+00:00",
+          "retrieved_at_utc": "2026-10-27T15:56:28.618713+00:00",
           "requested_start": null,
           "requested_end": null,
           "source_url": "https://finance.yahoo.com/quote/MSFT",
@@ -59,6 +59,8 @@
         "squeeze": {
           "state": "NEUTRO",
           "applicable": true,
+          "validation_status": "VALIDADO_PUNTO_REFERENCIA_MSFT",
+          "confluence_eligible": true,
           "momentum": 7.61981,
           "squeeze_on": true,
           "squeeze_off": false,
@@ -68,12 +70,16 @@
         "rsi": {
           "state": "COMPRA",
           "applicable": true,
+          "validation_status": "VALIDADO_UNITARIO",
+          "confluence_eligible": true,
           "rsi14": 57.23897,
           "prev": 52.61062
         },
         "macd": {
           "state": "NEUTRO",
           "applicable": true,
+          "validation_status": "VALIDADO_UNITARIO",
+          "confluence_eligible": true,
           "macd": 6.95797,
           "signal": 8.95323,
           "histogram": -1.99525,
@@ -82,6 +88,8 @@
         "adx": {
           "state": "COMPRA",
           "applicable": true,
+          "validation_status": "VALIDADO_UNITARIO",
+          "confluence_eligible": true,
           "adx14": 27.44372,
           "plus_di": 22.85327,
           "minus_di": 19.54744
@@ -89,6 +97,8 @@
         "volume_profile": {
           "state": "COMPRA",
           "applicable": true,
+          "validation_status": "NO_VALIDADO_APROXIMACION_RANGO",
+          "confluence_eligible": false,
           "poc": 398.8460568745931,
           "vah": 458.5896021525065,
           "val": 366.0291798909505,
@@ -99,11 +109,13 @@
         "fair_value": {
           "state": "VENTA",
           "applicable": true,
-          "fair_value": 144.5077,
-          "margin_to_fv": -2.68562,
+          "validation_status": "PROVISIONAL_AUDITORIA_FINANCIERA",
+          "confluence_eligible": true,
+          "fair_value": 141.90062,
+          "margin_to_fv": -2.75333,
           "method": "DCF FCFF TTM; crecimiento limitado y supuestos declarados",
           "margin_of_safety": 0.2,
-          "buy_price_with_margin": 115.60616,
+          "buy_price_with_margin": 113.52049,
           "assumptions": {
             "discount_rate": 0.1,
             "terminal_growth": 0.03,
@@ -115,12 +127,19 @@
             "shares_outstanding",
             "net_debt"
           ],
+          "input_values": {
+            "free_cash_flow": 66987000000.0,
+            "shares_outstanding": 7425545491.0,
+            "net_debt": 19359000000.0
+          },
           "current_price": 532.59998,
-          "upside_to_intrinsic": -0.72867
+          "upside_to_intrinsic": -0.73357
         },
         "koncorde": {
           "state": "NEUTRO",
           "applicable": true,
+          "validation_status": "NO_VALIDADO_EQUIVALENCIA_HISTORICA",
+          "confluence_eligible": false,
           "blue": 8.35926,
           "green": 57.17744,
           "brown": 57.26431,
@@ -129,19 +148,22 @@
         "tendencia": {
           "state": "COMPRA",
           "applicable": true,
+          "validation_status": "VALIDADO_UNITARIO",
+          "confluence_eligible": true,
           "ema50": 506.09285,
           "ema200": 461.76834
         }
       },
-      "buy_confluence_pct": 50.0,
-      "sell_confluence_pct": 12.5,
+      "buy_confluence_pct": null,
+      "sell_confluence_pct": null,
       "buy_veto": "COMPRA BLOQUEADA: FECHA DE BALANCE NO VERIFICADA",
       "decision": "ESPERAR / DATOS INSUFICIENTES",
       "warnings": [
         "Squeeze original LazyBear es la referencia por defecto; corrected=True usa multiplicador BB corregido.",
         "Koncorde reproduce la variante Pine de manboto; no se afirma equivalencia con la versión protegida de Marcos Emmi.",
         "Volume Profile reparte el volumen completo de cada vela en todos los niveles intersectados; no es volumen tick-by-tick.",
-        "El porcentaje de confluencia es concordancia de criterios, no probabilidad estadística."
+        "El porcentaje de confluencia es concordancia de criterios, no probabilidad estadística.",
+        "Volume Profile y Koncorde están marcados NO_VALIDADO y no participan en la confluencia verificable."
       ],
       "earnings": {
         "status": "N/D",
@@ -149,7 +171,7 @@
           "source": "Yahoo Finance via yfinance",
           "ticker": "MSFT",
           "interval": "earnings",
-          "retrieved_at_utc": "2026-10-27T15:32:43.730345+00:00",
+          "retrieved_at_utc": "2026-10-27T15:56:32.674114+00:00",
           "requested_start": null,
           "requested_end": null,
           "source_url": "https://finance.yahoo.com/quote/MSFT",
@@ -163,13 +185,20 @@
           "source": "Yahoo Finance via yfinance",
           "ticker": "MSFT",
           "interval": "financials",
-          "retrieved_at_utc": "2026-10-27T15:32:45.397536+00:00",
+          "retrieved_at_utc": "2026-10-27T15:56:34.857476+00:00",
           "requested_start": null,
           "requested_end": null,
           "source_url": "https://finance.yahoo.com/quote/MSFT",
           "note": "Datos sujetos a disponibilidad, retrasos y límites de Yahoo Finance."
         },
-        "method": "DCF FCFF TTM (suma de cuatro trimestres)"
+        "method": "DCF FCFF TTM (suma de cuatro trimestres)",
+        "audited_inputs": {
+          "free_cash_flow_ttm": 66987000000.0,
+          "operating_cash_flow_ttm": 182935000000.0,
+          "capital_expenditure_ttm": -115948000000.0,
+          "shares_outstanding": 7425545491,
+          "net_debt": 19359000000.0
+        }
       },
       "data_quality": {
         "daily_rows": 500,
@@ -191,15 +220,7 @@
       "public_verified": true
     },
     "repository": {
-      "status": "OK",
-      "owner": "matdev98",
-      "repository": "alertas-bursatiles-datos",
-      "html_url": "https://github.com/matdev98/alertas-bursatiles-datos",
-      "json_url": "https://raw.githubusercontent.com/matdev98/alertas-bursatiles-datos/main/alertas_latest.json",
-      "markdown_url": "https://raw.githubusercontent.com/matdev98/alertas-bursatiles-datos/main/alertas_latest.md",
-      "json_web_url": "https://github.com/matdev98/alertas-bursatiles-datos/blob/main/alertas_latest.json",
-      "markdown_web_url": "https://github.com/matdev98/alertas-bursatiles-datos/blob/main/alertas_latest.md",
-      "public_verified": true
+      "status": "PENDING"
     }
   }
 }
