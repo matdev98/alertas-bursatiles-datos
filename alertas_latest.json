@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "engine_version": "3.0.0",
-  "execution_utc": "2026-10-27T16:00:51Z",
+  "execution_utc": "2026-10-27T16:03:55Z",
   "reference_session_date": "2026-10-27",
   "provider": "Yahoo Finance via yfinance",
   "timezone": "America/New_York",
@@ -12,7 +12,7 @@
     {
       "schema_version": "1.0",
       "engine_version": "3.0.0",
-      "execution_utc": "2026-10-27T16:00:51Z",
+      "execution_utc": "2026-10-27T16:03:55Z",
       "symbol": "MSFT",
       "asset_type": "equity",
       "reference_session_date": "2026-10-27",
@@ -34,7 +34,7 @@
           "source": "Yahoo Finance via yfinance",
           "ticker": "MSFT",
           "interval": "1d",
-          "retrieved_at_utc": "2026-10-27T16:00:53.132521+00:00",
+          "retrieved_at_utc": "2026-10-27T16:03:57.319861+00:00",
           "requested_start": null,
           "requested_end": null,
           "source_url": "https://finance.yahoo.com/quote/MSFT",
@@ -45,7 +45,7 @@
           "source": "Yahoo Finance via yfinance",
           "ticker": "MSFT",
           "interval": "metadata",
-          "retrieved_at_utc": "2026-10-27T16:00:54.052207+00:00",
+          "retrieved_at_utc": "2026-10-27T16:03:58.092225+00:00",
           "requested_start": null,
           "requested_end": null,
           "source_url": "https://finance.yahoo.com/quote/MSFT",
@@ -156,7 +156,7 @@
       },
       "buy_confluence_pct": null,
       "sell_confluence_pct": null,
-      "buy_veto": "COMPRA BLOQUEADA: FECHA DE BALANCE NO VERIFICADA",
+      "buy_veto": "COMPRA BLOQUEADA: BALANCE PRÓXIMO",
       "decision": "ESPERAR / DATOS INSUFICIENTES",
       "warnings": [
         "Squeeze original LazyBear es la referencia por defecto; corrected=True usa multiplicador BB corregido.",
@@ -166,18 +166,22 @@
         "Volume Profile y Koncorde están marcados NO_VALIDADO y no participan en la confluencia verificable."
       ],
       "earnings": {
-        "status": "N/D",
+        "status": "OK",
+        "date": "2026-10-28T00:00:00",
         "provider": {
           "source": "Yahoo Finance via yfinance",
           "ticker": "MSFT",
           "interval": "earnings",
-          "retrieved_at_utc": "2026-10-27T16:00:58.884694+00:00",
+          "retrieved_at_utc": "2026-10-27T16:04:02.234112+00:00",
           "requested_start": null,
           "requested_end": null,
           "source_url": "https://finance.yahoo.com/quote/MSFT",
           "note": "Datos sujetos a disponibilidad, retrasos y límites de Yahoo Finance."
         },
-        "note": "N/D: Yahoo no expuso earnings_dates para este ticker."
+        "event_source": "Nasdaq Earnings Calendar",
+        "event_source_url": "https://api.nasdaq.com/api/calendar/earnings?date=2026-10-28",
+        "verified": true,
+        "time": "time-after-hours"
       },
       "fair_value_source": {
         "status": "OK",
@@ -185,7 +189,7 @@
           "source": "Yahoo Finance via yfinance",
           "ticker": "MSFT",
           "interval": "financials",
-          "retrieved_at_utc": "2026-10-27T16:01:01.196784+00:00",
+          "retrieved_at_utc": "2026-10-27T16:04:04.381719+00:00",
           "requested_start": null,
           "requested_end": null,
           "source_url": "https://finance.yahoo.com/quote/MSFT",
@@ -220,15 +224,7 @@
       "public_verified": true
     },
     "repository": {
-      "status": "OK",
-      "owner": "matdev98",
-      "repository": "alertas-bursatiles-datos",
-      "html_url": "https://github.com/matdev98/alertas-bursatiles-datos",
-      "json_url": "https://raw.githubusercontent.com/matdev98/alertas-bursatiles-datos/main/alertas_latest.json",
-      "markdown_url": "https://raw.githubusercontent.com/matdev98/alertas-bursatiles-datos/main/alertas_latest.md",
-      "json_web_url": "https://github.com/matdev98/alertas-bursatiles-datos/blob/main/alertas_latest.json",
-      "markdown_web_url": "https://github.com/matdev98/alertas-bursatiles-datos/blob/main/alertas_latest.md",
-      "public_verified": true
+      "status": "PENDING"
     }
   }
 }
