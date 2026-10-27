@@ -49,7 +49,15 @@ Este archivo es texto estático. Los valores completos están en el JSON incluid
       "status": "OK"
     },
     "repository": {
-      "status": "PENDING"
+      "html_url": "https://github.com/matdev98/alertas-bursatiles-datos",
+      "json_url": "https://raw.githubusercontent.com/matdev98/alertas-bursatiles-datos/main/alertas_latest.json",
+      "json_web_url": "https://github.com/matdev98/alertas-bursatiles-datos/blob/main/alertas_latest.json",
+      "markdown_url": "https://raw.githubusercontent.com/matdev98/alertas-bursatiles-datos/main/alertas_latest.md",
+      "markdown_web_url": "https://github.com/matdev98/alertas-bursatiles-datos/blob/main/alertas_latest.md",
+      "owner": "matdev98",
+      "public_verified": true,
+      "repository": "alertas-bursatiles-datos",
+      "status": "OK"
     }
   },
   "reference_session_date": "2026-10-27",
