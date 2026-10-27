@@ -1,6 +1,6 @@
 # Alertas bursátiles
 
-**Ejecución UTC:** `2026-10-27T15:30:54Z`  
+**Ejecución UTC:** `2026-10-27T15:32:38Z`  
 **Fecha de referencia:** `2026-10-27`  
 **Proveedor:** Yahoo Finance via yfinance  
 **Zona horaria:** America/New_York
@@ -27,10 +27,10 @@ Este archivo es texto estático. Los valores completos están en el JSON incluid
 - **tendencia**: `COMPRA` — applicable=True; ema50=506.09285; ema200=461.76834
 
 #### Fuentes, validación y advertencias
-- Metadatos: `{"adjusted_prices": false, "currency": "USD", "daily_provenance": {"interval": "1d", "note": "Datos sujetos a disponibilidad, retrasos y límites de Yahoo Finance.", "requested_end": null, "requested_start": null, "retrieved_at_utc": "2026-10-27T15:30:55.860642+00:00", "source": "Yahoo Finance via yfinance", "source_url": "https://finance.yahoo.com/quote/MSFT", "ticker": "MSFT"}, "exchange": "NMS", "last_closed_candle": "2026-10-26", "metadata_provenance": {"interval": "metadata", "note": "Datos sujetos a disponibilidad, retrasos y límites de Yahoo Finance.", "requested_end": null, "requested_start": null, "retrieved_at_utc": "2026-10-27T15:30:56.672778+00:00", "source": "Yahoo Finance via yfinance", "source_url": "https://finance.yahoo.com/quote/MSFT", "ticker": "MSFT"}, "provider": "Yahoo Finance via yfinance", "ticker": "MSFT", "timezone": "America/New_York"}`
+- Metadatos: `{"adjusted_prices": false, "currency": "USD", "daily_provenance": {"interval": "1d", "note": "Datos sujetos a disponibilidad, retrasos y límites de Yahoo Finance.", "requested_end": null, "requested_start": null, "retrieved_at_utc": "2026-10-27T15:32:40.447791+00:00", "source": "Yahoo Finance via yfinance", "source_url": "https://finance.yahoo.com/quote/MSFT", "ticker": "MSFT"}, "exchange": "NMS", "last_closed_candle": "2026-10-26", "metadata_provenance": {"interval": "metadata", "note": "Datos sujetos a disponibilidad, retrasos y límites de Yahoo Finance.", "requested_end": null, "requested_start": null, "retrieved_at_utc": "2026-10-27T15:32:41.344518+00:00", "source": "Yahoo Finance via yfinance", "source_url": "https://finance.yahoo.com/quote/MSFT", "ticker": "MSFT"}, "provider": "Yahoo Finance via yfinance", "ticker": "MSFT", "timezone": "America/New_York"}`
 - Calidad: `{"closed_daily_only": true, "daily_hash": "b5039031ed12d99d23b2a2f9b646ba8cc369fe19ed0f7f9cbcacc254f048175f", "daily_rows": 500, "intraday_rows": 5073}`
-- Earnings: `{"note": "N/D: Yahoo no expuso earnings_dates para este ticker.", "provider": {"interval": "earnings", "note": "Datos sujetos a disponibilidad, retrasos y límites de Yahoo Finance.", "requested_end": null, "requested_start": null, "retrieved_at_utc": "2026-10-27T15:30:59.084166+00:00", "source": "Yahoo Finance via yfinance", "source_url": "https://finance.yahoo.com/quote/MSFT", "ticker": "MSFT"}, "status": "N/D"}`
-- Fair Value: `{"method": "DCF FCFF TTM (suma de cuatro trimestres)", "provider": {"interval": "financials", "note": "Datos sujetos a disponibilidad, retrasos y límites de Yahoo Finance.", "requested_end": null, "requested_start": null, "retrieved_at_utc": "2026-10-27T15:31:01.161092+00:00", "source": "Yahoo Finance via yfinance", "source_url": "https://finance.yahoo.com/quote/MSFT", "ticker": "MSFT"}, "status": "OK"}`
+- Earnings: `{"note": "N/D: Yahoo no expuso earnings_dates para este ticker.", "provider": {"interval": "earnings", "note": "Datos sujetos a disponibilidad, retrasos y límites de Yahoo Finance.", "requested_end": null, "requested_start": null, "retrieved_at_utc": "2026-10-27T15:32:43.730345+00:00", "source": "Yahoo Finance via yfinance", "source_url": "https://finance.yahoo.com/quote/MSFT", "ticker": "MSFT"}, "status": "N/D"}`
+- Fair Value: `{"method": "DCF FCFF TTM (suma de cuatro trimestres)", "provider": {"interval": "financials", "note": "Datos sujetos a disponibilidad, retrasos y límites de Yahoo Finance.", "requested_end": null, "requested_start": null, "retrieved_at_utc": "2026-10-27T15:32:45.397536+00:00", "source": "Yahoo Finance via yfinance", "source_url": "https://finance.yahoo.com/quote/MSFT", "ticker": "MSFT"}, "status": "OK"}`
 - Advertencias: `["Squeeze original LazyBear es la referencia por defecto; corrected=True usa multiplicador BB corregido.", "Koncorde reproduce la variante Pine de manboto; no se afirma equivalencia con la versión protegida de Marcos Emmi.", "Volume Profile reparte el volumen completo de cada vela en todos los niveles intersectados; no es volumen tick-by-tick.", "El porcentaje de confluencia es concordancia de criterios, no probabilidad estadística."]`
 
 ## Payload completo
@@ -38,7 +38,7 @@ Este archivo es texto estático. Los valores completos están en el JSON incluid
 ```json
 {
   "engine_version": "3.0.0",
-  "execution_utc": "2026-10-27T15:30:54Z",
+  "execution_utc": "2026-10-27T15:32:38Z",
   "provider": "Yahoo Finance via yfinance",
   "publication": {
     "gist": {
@@ -49,15 +49,7 @@ Este archivo es texto estático. Los valores completos están en el JSON incluid
       "status": "OK"
     },
     "repository": {
-      "html_url": "https://github.com/matdev98/alertas-bursatiles-datos",
-      "json_url": "https://raw.githubusercontent.com/matdev98/alertas-bursatiles-datos/main/alertas_latest.json",
-      "json_web_url": "https://github.com/matdev98/alertas-bursatiles-datos/blob/main/alertas_latest.json",
-      "markdown_url": "https://raw.githubusercontent.com/matdev98/alertas-bursatiles-datos/main/alertas_latest.md",
-      "markdown_web_url": "https://github.com/matdev98/alertas-bursatiles-datos/blob/main/alertas_latest.md",
-      "owner": "matdev98",
-      "public_verified": true,
-      "repository": "alertas-bursatiles-datos",
-      "status": "OK"
+      "status": "PENDING"
     }
   },
   "reference_session_date": "2026-10-27",
@@ -75,7 +67,7 @@ Este archivo es texto estático. Los valores completos están en el JSON incluid
           "note": "Datos sujetos a disponibilidad, retrasos y límites de Yahoo Finance.",
           "requested_end": null,
           "requested_start": null,
-          "retrieved_at_utc": "2026-10-27T15:30:55.860642+00:00",
+          "retrieved_at_utc": "2026-10-27T15:32:40.447791+00:00",
           "source": "Yahoo Finance via yfinance",
           "source_url": "https://finance.yahoo.com/quote/MSFT",
           "ticker": "MSFT"
@@ -87,7 +79,7 @@ Este archivo es texto estático. Los valores completos están en el JSON incluid
           "note": "Datos sujetos a disponibilidad, retrasos y límites de Yahoo Finance.",
           "requested_end": null,
           "requested_start": null,
-          "retrieved_at_utc": "2026-10-27T15:30:56.672778+00:00",
+          "retrieved_at_utc": "2026-10-27T15:32:41.344518+00:00",
           "source": "Yahoo Finance via yfinance",
           "source_url": "https://finance.yahoo.com/quote/MSFT",
           "ticker": "MSFT"
@@ -110,7 +102,7 @@ Este archivo es texto estático. Los valores completos están en el JSON incluid
           "note": "Datos sujetos a disponibilidad, retrasos y límites de Yahoo Finance.",
           "requested_end": null,
           "requested_start": null,
-          "retrieved_at_utc": "2026-10-27T15:30:59.084166+00:00",
+          "retrieved_at_utc": "2026-10-27T15:32:43.730345+00:00",
           "source": "Yahoo Finance via yfinance",
           "source_url": "https://finance.yahoo.com/quote/MSFT",
           "ticker": "MSFT"
@@ -118,7 +110,7 @@ Este archivo es texto estático. Los valores completos están en el JSON incluid
         "status": "N/D"
       },
       "engine_version": "3.0.0",
-      "execution_utc": "2026-10-27T15:30:54Z",
+      "execution_utc": "2026-10-27T15:32:38Z",
       "fair_value_source": {
         "method": "DCF FCFF TTM (suma de cuatro trimestres)",
         "provider": {
@@ -126,7 +118,7 @@ Este archivo es texto estático. Los valores completos están en el JSON incluid
           "note": "Datos sujetos a disponibilidad, retrasos y límites de Yahoo Finance.",
           "requested_end": null,
           "requested_start": null,
-          "retrieved_at_utc": "2026-10-27T15:31:01.161092+00:00",
+          "retrieved_at_utc": "2026-10-27T15:32:45.397536+00:00",
           "source": "Yahoo Finance via yfinance",
           "source_url": "https://finance.yahoo.com/quote/MSFT",
           "ticker": "MSFT"
@@ -243,4 +235,4 @@ Este archivo es texto estático. Los valores completos están en el JSON incluid
 }
 ```
 
-<!-- execution_utc: 2026-10-27T15:30:54Z -->
+<!-- execution_utc: 2026-10-27T15:32:38Z -->
