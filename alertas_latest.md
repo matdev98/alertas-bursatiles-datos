@@ -1,6 +1,6 @@
 # Alertas bursátiles
 
-**Ejecución UTC:** `2026-10-27T15:32:38Z`  
+**Ejecución UTC:** `2026-10-27T15:56:26Z`  
 **Fecha de referencia:** `2026-10-27`  
 **Proveedor:** Yahoo Finance via yfinance  
 **Zona horaria:** America/New_York
@@ -12,33 +12,33 @@ Este archivo es texto estático. Los valores completos están en el JSON incluid
 - Decisión: **ESPERAR / DATOS INSUFICIENTES**
 - Última sesión cerrada: `2026-10-26`
 - Cierre: `532.59998`
-- Confluencia compra: `50.0`
-- Confluencia venta: `12.5`
+- Confluencia compra: `None`
+- Confluencia venta: `None`
 - Bloqueo de compra: `COMPRA BLOQUEADA: FECHA DE BALANCE NO VERIFICADA`
 
 #### Indicadores
-- **squeeze**: `NEUTRO` — applicable=True; momentum=7.61981; squeeze_on=True; squeeze_off=False; hist_color=green; release_now=False
-- **rsi**: `COMPRA` — applicable=True; rsi14=57.23897; prev=52.61062
-- **macd**: `NEUTRO` — applicable=True; macd=6.95797; signal=8.95323; histogram=-1.99525; prev_histogram=-2.30018
-- **adx**: `COMPRA` — applicable=True; adx14=27.44372; plus_di=22.85327; minus_di=19.54744
-- **volume_profile**: `COMPRA` — applicable=True; poc=398.8460568745931; vah=458.5896021525065; val=366.0291798909505; coverage_sessions=200; counted_volume=13507531826.0; note=Estimación de volumen por rango de velas; NO VP tick-by-tick ni el indicador original.
-- **fair_value**: `VENTA` — applicable=True; fair_value=144.5077; margin_to_fv=-2.68562; method=DCF FCFF TTM; crecimiento limitado y supuestos declarados; margin_of_safety=0.2; buy_price_with_margin=115.60616; assumptions={'discount_rate': 0.1, 'terminal_growth': 0.03, 'fcf_growth': 0.05, 'forecast_years': 5}; source_fields=['free_cash_flow', 'shares_outstanding', 'net_debt']; current_price=532.59998; upside_to_intrinsic=-0.72867
-- **koncorde**: `NEUTRO` — applicable=True; blue=8.35926; green=57.17744; brown=57.26431; red=80.9148
-- **tendencia**: `COMPRA` — applicable=True; ema50=506.09285; ema200=461.76834
+- **squeeze**: `NEUTRO` — applicable=True; validation_status=VALIDADO_PUNTO_REFERENCIA_MSFT; confluence_eligible=True; momentum=7.61981; squeeze_on=True; squeeze_off=False; hist_color=green; release_now=False
+- **rsi**: `COMPRA` — applicable=True; validation_status=VALIDADO_UNITARIO; confluence_eligible=True; rsi14=57.23897; prev=52.61062
+- **macd**: `NEUTRO` — applicable=True; validation_status=VALIDADO_UNITARIO; confluence_eligible=True; macd=6.95797; signal=8.95323; histogram=-1.99525; prev_histogram=-2.30018
+- **adx**: `COMPRA` — applicable=True; validation_status=VALIDADO_UNITARIO; confluence_eligible=True; adx14=27.44372; plus_di=22.85327; minus_di=19.54744
+- **volume_profile**: `COMPRA` — applicable=True; validation_status=NO_VALIDADO_APROXIMACION_RANGO; confluence_eligible=False; poc=398.8460568745931; vah=458.5896021525065; val=366.0291798909505; coverage_sessions=200; counted_volume=13507531826.0; note=Estimación de volumen por rango de velas; NO VP tick-by-tick ni el indicador original.
+- **fair_value**: `VENTA` — applicable=True; validation_status=PROVISIONAL_AUDITORIA_FINANCIERA; confluence_eligible=True; fair_value=141.90062; margin_to_fv=-2.75333; method=DCF FCFF TTM; crecimiento limitado y supuestos declarados; margin_of_safety=0.2; buy_price_with_margin=113.52049; assumptions={'discount_rate': 0.1, 'terminal_growth': 0.03, 'fcf_growth': 0.05, 'forecast_years': 5}; source_fields=['free_cash_flow', 'shares_outstanding', 'net_debt']; input_values={'free_cash_flow': 66987000000.0, 'shares_outstanding': 7425545491.0, 'net_debt': 19359000000.0}; current_price=532.59998; upside_to_intrinsic=-0.73357
+- **koncorde**: `NEUTRO` — applicable=True; validation_status=NO_VALIDADO_EQUIVALENCIA_HISTORICA; confluence_eligible=False; blue=8.35926; green=57.17744; brown=57.26431; red=80.9148
+- **tendencia**: `COMPRA` — applicable=True; validation_status=VALIDADO_UNITARIO; confluence_eligible=True; ema50=506.09285; ema200=461.76834
 
 #### Fuentes, validación y advertencias
-- Metadatos: `{"adjusted_prices": false, "currency": "USD", "daily_provenance": {"interval": "1d", "note": "Datos sujetos a disponibilidad, retrasos y límites de Yahoo Finance.", "requested_end": null, "requested_start": null, "retrieved_at_utc": "2026-10-27T15:32:40.447791+00:00", "source": "Yahoo Finance via yfinance", "source_url": "https://finance.yahoo.com/quote/MSFT", "ticker": "MSFT"}, "exchange": "NMS", "last_closed_candle": "2026-10-26", "metadata_provenance": {"interval": "metadata", "note": "Datos sujetos a disponibilidad, retrasos y límites de Yahoo Finance.", "requested_end": null, "requested_start": null, "retrieved_at_utc": "2026-10-27T15:32:41.344518+00:00", "source": "Yahoo Finance via yfinance", "source_url": "https://finance.yahoo.com/quote/MSFT", "ticker": "MSFT"}, "provider": "Yahoo Finance via yfinance", "ticker": "MSFT", "timezone": "America/New_York"}`
+- Metadatos: `{"adjusted_prices": false, "currency": "USD", "daily_provenance": {"interval": "1d", "note": "Datos sujetos a disponibilidad, retrasos y límites de Yahoo Finance.", "requested_end": null, "requested_start": null, "retrieved_at_utc": "2026-10-27T15:56:27.894569+00:00", "source": "Yahoo Finance via yfinance", "source_url": "https://finance.yahoo.com/quote/MSFT", "ticker": "MSFT"}, "exchange": "NMS", "last_closed_candle": "2026-10-26", "metadata_provenance": {"interval": "metadata", "note": "Datos sujetos a disponibilidad, retrasos y límites de Yahoo Finance.", "requested_end": null, "requested_start": null, "retrieved_at_utc": "2026-10-27T15:56:28.618713+00:00", "source": "Yahoo Finance via yfinance", "source_url": "https://finance.yahoo.com/quote/MSFT", "ticker": "MSFT"}, "provider": "Yahoo Finance via yfinance", "ticker": "MSFT", "timezone": "America/New_York"}`
 - Calidad: `{"closed_daily_only": true, "daily_hash": "b5039031ed12d99d23b2a2f9b646ba8cc369fe19ed0f7f9cbcacc254f048175f", "daily_rows": 500, "intraday_rows": 5073}`
-- Earnings: `{"note": "N/D: Yahoo no expuso earnings_dates para este ticker.", "provider": {"interval": "earnings", "note": "Datos sujetos a disponibilidad, retrasos y límites de Yahoo Finance.", "requested_end": null, "requested_start": null, "retrieved_at_utc": "2026-10-27T15:32:43.730345+00:00", "source": "Yahoo Finance via yfinance", "source_url": "https://finance.yahoo.com/quote/MSFT", "ticker": "MSFT"}, "status": "N/D"}`
-- Fair Value: `{"method": "DCF FCFF TTM (suma de cuatro trimestres)", "provider": {"interval": "financials", "note": "Datos sujetos a disponibilidad, retrasos y límites de Yahoo Finance.", "requested_end": null, "requested_start": null, "retrieved_at_utc": "2026-10-27T15:32:45.397536+00:00", "source": "Yahoo Finance via yfinance", "source_url": "https://finance.yahoo.com/quote/MSFT", "ticker": "MSFT"}, "status": "OK"}`
-- Advertencias: `["Squeeze original LazyBear es la referencia por defecto; corrected=True usa multiplicador BB corregido.", "Koncorde reproduce la variante Pine de manboto; no se afirma equivalencia con la versión protegida de Marcos Emmi.", "Volume Profile reparte el volumen completo de cada vela en todos los niveles intersectados; no es volumen tick-by-tick.", "El porcentaje de confluencia es concordancia de criterios, no probabilidad estadística."]`
+- Earnings: `{"note": "N/D: Yahoo no expuso earnings_dates para este ticker.", "provider": {"interval": "earnings", "note": "Datos sujetos a disponibilidad, retrasos y límites de Yahoo Finance.", "requested_end": null, "requested_start": null, "retrieved_at_utc": "2026-10-27T15:56:32.674114+00:00", "source": "Yahoo Finance via yfinance", "source_url": "https://finance.yahoo.com/quote/MSFT", "ticker": "MSFT"}, "status": "N/D"}`
+- Fair Value: `{"audited_inputs": {"capital_expenditure_ttm": -115948000000.0, "free_cash_flow_ttm": 66987000000.0, "net_debt": 19359000000.0, "operating_cash_flow_ttm": 182935000000.0, "shares_outstanding": 7425545491}, "method": "DCF FCFF TTM (suma de cuatro trimestres)", "provider": {"interval": "financials", "note": "Datos sujetos a disponibilidad, retrasos y límites de Yahoo Finance.", "requested_end": null, "requested_start": null, "retrieved_at_utc": "2026-10-27T15:56:34.857476+00:00", "source": "Yahoo Finance via yfinance", "source_url": "https://finance.yahoo.com/quote/MSFT", "ticker": "MSFT"}, "status": "OK"}`
+- Advertencias: `["Squeeze original LazyBear es la referencia por defecto; corrected=True usa multiplicador BB corregido.", "Koncorde reproduce la variante Pine de manboto; no se afirma equivalencia con la versión protegida de Marcos Emmi.", "Volume Profile reparte el volumen completo de cada vela en todos los niveles intersectados; no es volumen tick-by-tick.", "El porcentaje de confluencia es concordancia de criterios, no probabilidad estadística.", "Volume Profile y Koncorde están marcados NO_VALIDADO y no participan en la confluencia verificable."]`
 
 ## Payload completo
 
 ```json
 {
   "engine_version": "3.0.0",
-  "execution_utc": "2026-10-27T15:32:38Z",
+  "execution_utc": "2026-10-27T15:56:26Z",
   "provider": "Yahoo Finance via yfinance",
   "publication": {
     "gist": {
@@ -49,22 +49,14 @@ Este archivo es texto estático. Los valores completos están en el JSON incluid
       "status": "OK"
     },
     "repository": {
-      "html_url": "https://github.com/matdev98/alertas-bursatiles-datos",
-      "json_url": "https://raw.githubusercontent.com/matdev98/alertas-bursatiles-datos/main/alertas_latest.json",
-      "json_web_url": "https://github.com/matdev98/alertas-bursatiles-datos/blob/main/alertas_latest.json",
-      "markdown_url": "https://raw.githubusercontent.com/matdev98/alertas-bursatiles-datos/main/alertas_latest.md",
-      "markdown_web_url": "https://github.com/matdev98/alertas-bursatiles-datos/blob/main/alertas_latest.md",
-      "owner": "matdev98",
-      "public_verified": true,
-      "repository": "alertas-bursatiles-datos",
-      "status": "OK"
+      "status": "PENDING"
     }
   },
   "reference_session_date": "2026-10-27",
   "results": [
     {
       "asset_type": "equity",
-      "buy_confluence_pct": 50.0,
+      "buy_confluence_pct": null,
       "buy_veto": "COMPRA BLOQUEADA: FECHA DE BALANCE NO VERIFICADA",
       "close_usd": 532.59998,
       "data_metadata": {
@@ -75,7 +67,7 @@ Este archivo es texto estático. Los valores completos están en el JSON incluid
           "note": "Datos sujetos a disponibilidad, retrasos y límites de Yahoo Finance.",
           "requested_end": null,
           "requested_start": null,
-          "retrieved_at_utc": "2026-10-27T15:32:40.447791+00:00",
+          "retrieved_at_utc": "2026-10-27T15:56:27.894569+00:00",
           "source": "Yahoo Finance via yfinance",
           "source_url": "https://finance.yahoo.com/quote/MSFT",
           "ticker": "MSFT"
@@ -87,7 +79,7 @@ Este archivo es texto estático. Los valores completos están en el JSON incluid
           "note": "Datos sujetos a disponibilidad, retrasos y límites de Yahoo Finance.",
           "requested_end": null,
           "requested_start": null,
-          "retrieved_at_utc": "2026-10-27T15:32:41.344518+00:00",
+          "retrieved_at_utc": "2026-10-27T15:56:28.618713+00:00",
           "source": "Yahoo Finance via yfinance",
           "source_url": "https://finance.yahoo.com/quote/MSFT",
           "ticker": "MSFT"
@@ -110,7 +102,7 @@ Este archivo es texto estático. Los valores completos están en el JSON incluid
           "note": "Datos sujetos a disponibilidad, retrasos y límites de Yahoo Finance.",
           "requested_end": null,
           "requested_start": null,
-          "retrieved_at_utc": "2026-10-27T15:32:43.730345+00:00",
+          "retrieved_at_utc": "2026-10-27T15:56:32.674114+00:00",
           "source": "Yahoo Finance via yfinance",
           "source_url": "https://finance.yahoo.com/quote/MSFT",
           "ticker": "MSFT"
@@ -118,15 +110,22 @@ Este archivo es texto estático. Los valores completos están en el JSON incluid
         "status": "N/D"
       },
       "engine_version": "3.0.0",
-      "execution_utc": "2026-10-27T15:32:38Z",
+      "execution_utc": "2026-10-27T15:56:26Z",
       "fair_value_source": {
+        "audited_inputs": {
+          "capital_expenditure_ttm": -115948000000.0,
+          "free_cash_flow_ttm": 66987000000.0,
+          "net_debt": 19359000000.0,
+          "operating_cash_flow_ttm": 182935000000.0,
+          "shares_outstanding": 7425545491
+        },
         "method": "DCF FCFF TTM (suma de cuatro trimestres)",
         "provider": {
           "interval": "financials",
           "note": "Datos sujetos a disponibilidad, retrasos y límites de Yahoo Finance.",
           "requested_end": null,
           "requested_start": null,
-          "retrieved_at_utc": "2026-10-27T15:32:45.397536+00:00",
+          "retrieved_at_utc": "2026-10-27T15:56:34.857476+00:00",
           "source": "Yahoo Finance via yfinance",
           "source_url": "https://finance.yahoo.com/quote/MSFT",
           "ticker": "MSFT"
@@ -137,9 +136,11 @@ Este archivo es texto estático. Los valores completos están en el JSON incluid
         "adx": {
           "adx14": 27.44372,
           "applicable": true,
+          "confluence_eligible": true,
           "minus_di": 19.54744,
           "plus_di": 22.85327,
-          "state": "COMPRA"
+          "state": "COMPRA",
+          "validation_status": "VALIDADO_UNITARIO"
         },
         "fair_value": {
           "applicable": true,
@@ -149,11 +150,17 @@ Este archivo es texto estático. Los valores completos están en el JSON incluid
             "forecast_years": 5,
             "terminal_growth": 0.03
           },
-          "buy_price_with_margin": 115.60616,
+          "buy_price_with_margin": 113.52049,
+          "confluence_eligible": true,
           "current_price": 532.59998,
-          "fair_value": 144.5077,
+          "fair_value": 141.90062,
+          "input_values": {
+            "free_cash_flow": 66987000000.0,
+            "net_debt": 19359000000.0,
+            "shares_outstanding": 7425545491.0
+          },
           "margin_of_safety": 0.2,
-          "margin_to_fv": -2.68562,
+          "margin_to_fv": -2.75333,
           "method": "DCF FCFF TTM; crecimiento limitado y supuestos declarados",
           "source_fields": [
             "free_cash_flow",
@@ -161,60 +168,73 @@ Este archivo es texto estático. Los valores completos están en el JSON incluid
             "net_debt"
           ],
           "state": "VENTA",
-          "upside_to_intrinsic": -0.72867
+          "upside_to_intrinsic": -0.73357,
+          "validation_status": "PROVISIONAL_AUDITORIA_FINANCIERA"
         },
         "koncorde": {
           "applicable": true,
           "blue": 8.35926,
           "brown": 57.26431,
+          "confluence_eligible": false,
           "green": 57.17744,
           "red": 80.9148,
-          "state": "NEUTRO"
+          "state": "NEUTRO",
+          "validation_status": "NO_VALIDADO_EQUIVALENCIA_HISTORICA"
         },
         "macd": {
           "applicable": true,
+          "confluence_eligible": true,
           "histogram": -1.99525,
           "macd": 6.95797,
           "prev_histogram": -2.30018,
           "signal": 8.95323,
-          "state": "NEUTRO"
+          "state": "NEUTRO",
+          "validation_status": "VALIDADO_UNITARIO"
         },
         "rsi": {
           "applicable": true,
+          "confluence_eligible": true,
           "prev": 52.61062,
           "rsi14": 57.23897,
-          "state": "COMPRA"
+          "state": "COMPRA",
+          "validation_status": "VALIDADO_UNITARIO"
         },
         "squeeze": {
           "applicable": true,
+          "confluence_eligible": true,
           "hist_color": "green",
           "momentum": 7.61981,
           "release_now": false,
           "squeeze_off": false,
           "squeeze_on": true,
-          "state": "NEUTRO"
+          "state": "NEUTRO",
+          "validation_status": "VALIDADO_PUNTO_REFERENCIA_MSFT"
         },
         "tendencia": {
           "applicable": true,
+          "confluence_eligible": true,
           "ema200": 461.76834,
           "ema50": 506.09285,
-          "state": "COMPRA"
+          "state": "COMPRA",
+          "validation_status": "VALIDADO_UNITARIO"
         },
         "volume_profile": {
           "applicable": true,
+          "confluence_eligible": false,
           "counted_volume": 13507531826.0,
           "coverage_sessions": 200,
           "note": "Estimación de volumen por rango de velas; NO VP tick-by-tick ni el indicador original.",
           "poc": 398.8460568745931,
           "state": "COMPRA",
           "vah": 458.5896021525065,
-          "val": 366.0291798909505
+          "val": 366.0291798909505,
+          "validation_status": "NO_VALIDADO_APROXIMACION_RANGO"
         }
       },
       "last_complete_session": "2026-10-26",
       "reference_session_date": "2026-10-27",
       "schema_version": "1.0",
-      "sell_confluence_pct": 12.5,
+      "sell_confluence_pct": null,
       "sessions_loaded": 500,
       "signal_policy": {
         "closed_daily_candles_only": true,
@@ -228,7 +248,8 @@ Este archivo es texto estático. Los valores completos están en el JSON incluid
         "Squeeze original LazyBear es la referencia por defecto; corrected=True usa multiplicador BB corregido.",
         "Koncorde reproduce la variante Pine de manboto; no se afirma equivalencia con la versión protegida de Marcos Emmi.",
         "Volume Profile reparte el volumen completo de cada vela en todos los niveles intersectados; no es volumen tick-by-tick.",
-        "El porcentaje de confluencia es concordancia de criterios, no probabilidad estadística."
+        "El porcentaje de confluencia es concordancia de criterios, no probabilidad estadística.",
+        "Volume Profile y Koncorde están marcados NO_VALIDADO y no participan en la confluencia verificable."
       ]
     }
   ],
@@ -243,4 +264,4 @@ Este archivo es texto estático. Los valores completos están en el JSON incluid
 }
 ```
 
-<!-- execution_utc: 2026-10-27T15:32:38Z -->
+<!-- execution_utc: 2026-10-27T15:56:26Z -->
